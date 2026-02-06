@@ -1,0 +1,158 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "156c9497-a769-4db4-8dbf-f14841e5fc52")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 168.91 35.56)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "789c19f2-4296-46af-b3b3-7132c51ecd67")
+		(property "Sheetname" "phasedriver"
+			(at 168.91 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/phasedriver.kicad_sch"
+			(at 168.91 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V" input
+			(at 168.91 40.64 180)
+			(uuid "725f0382-60af-4ac1-b768-72121ca6f192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 168.91 43.18 180)
+			(uuid "9d2b4f13-5f3e-44ad-be0e-acfad4901953")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIN" input
+			(at 168.91 46.99 180)
+			(uuid "905c1a20-b60a-4b2e-a71f-0c2f6f720296")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LINN" input
+			(at 168.91 49.53 180)
+			(uuid "acf16d20-d966-402f-9e73-3ae5eafdcc80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "phase" output
+			(at 187.96 49.53 0)
+			(uuid "8adb5e73-37d3-42dd-8524-e69ef6c209e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 168.91 38.1 180)
+			(uuid "c01d04d9-abe5-4f89-a313-6543ede353b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "opentorque"
+				(path "/156c9497-a769-4db4-8dbf-f14841e5fc52"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 34.29)
+		(size 40.64 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3ea4619-d2c2-4d91-a61f-a64cab73bb7e")
+		(property "Sheetname" "rp2040"
+			(at 105.41 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/rp2040.kicad_sch"
+			(at 105.41 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "opentorque"
+				(path "/156c9497-a769-4db4-8dbf-f14841e5fc52"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
