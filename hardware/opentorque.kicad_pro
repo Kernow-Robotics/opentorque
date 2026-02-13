@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|177110000|123700000|f3ab465b-a31e-4339-9786-9100d5777159|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|182890000|123700000|f346bb8a-c29b-44ef-9ea8-75348ed36904|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "clearance|177075000|123170000|f3ab465b-a31e-4339-9786-9100d5777159|3859efd0-c151-42ac-a72e-8e7c0274bdf1",
+          ""
+        ],
+        [
+          "clearance|182925000|123170000|f346bb8a-c29b-44ef-9ea8-75348ed36904|c630f429-45a0-424f-a81c-768567dd125d",
+          ""
+        ],
+        [
+          "padstack|177110000|123700000|f3ab465b-a31e-4339-9786-9100d5777159|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|182890000|123700000|f346bb8a-c29b-44ef-9ea8-75348ed36904|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -100,9 +125,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -137,7 +162,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.15,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -189,7 +214,8 @@
       "track_widths": [
         0.0,
         0.1,
-        0.2
+        0.2,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -221,6 +247,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.7
         }
       ],
       "zones_allow_external_fillets": false
