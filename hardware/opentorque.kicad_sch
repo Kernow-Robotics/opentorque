@@ -1418,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 52.07) (xy 186.69 66.04)
+			(xy 186.69 52.07) (xy 186.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 186.69 68.58)
+			(xy 186.69 82.55) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 173.99 71.12)
+			(xy 173.99 113.03) (xy 173.99 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 186.69 68.58)
+			(xy 146.05 66.04) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 71.12) (xy 146.05 71.12)
+			(xy 173.99 68.58) (xy 146.05 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 66.04) (xy 146.05 66.04)
+			(xy 186.69 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1786,6 +1786,16 @@
 		)
 		(uuid "fef252a4-20a8-4007-b915-12bdc3087bc0")
 	)
+	(label "SCL"
+		(at 143.51 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a3be76-56af-493e-a468-9598170c95ff")
+	)
 	(label ""
 		(at 146.05 73.66 0)
 		(effects
@@ -1796,7 +1806,7 @@
 		)
 		(uuid "743947d5-0305-4562-991a-9c768184277d")
 	)
-	(label "GPIO29"
+	(label "Vsense"
 		(at 71.12 66.04 0)
 		(effects
 			(font
@@ -1806,15 +1816,45 @@
 		)
 		(uuid "81c30eb4-594a-4f27-a797-d42972cfd08c")
 	)
-	(label "GPIO29"
-		(at 146.05 73.66 0)
+	(label "SCL"
+		(at 105.41 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83975965-24d0-401f-9f09-4b4246b98a1d")
+	)
+	(label "SDA"
+		(at 105.41 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6d0a486-bcd7-4547-b758-3f5ca14988fd")
+	)
+	(label "Vsense"
+		(at 105.41 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0c958e0-00cb-4589-a7f2-8120d86b0763")
+	)
+	(label "SDA"
+		(at 143.51 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c0c958e0-00cb-4589-a7f2-8120d86b0763")
+		(uuid "e42a2481-ee39-4e55-b7ca-67b3a2a941f5")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4525,7 +4565,7 @@
 			)
 		)
 		(pin "GPIO26" bidirectional
-			(at 146.05 66.04 0)
+			(at 146.05 63.5 0)
 			(uuid "87aa4648-887c-4ed3-95e5-f6d61995c663")
 			(effects
 				(font
@@ -4535,7 +4575,7 @@
 			)
 		)
 		(pin "GPIO27" bidirectional
-			(at 146.05 68.58 0)
+			(at 146.05 66.04 0)
 			(uuid "d4d971f1-52f8-427a-a244-deda8a975c76")
 			(effects
 				(font
@@ -4545,7 +4585,7 @@
 			)
 		)
 		(pin "GPIO28" bidirectional
-			(at 146.05 71.12 0)
+			(at 146.05 68.58 0)
 			(uuid "56f751f1-bf98-47c3-92d4-17e5323aea14")
 			(effects
 				(font
@@ -4555,13 +4595,13 @@
 			)
 		)
 		(pin "GPIO29" bidirectional
-			(at 146.05 73.66 0)
+			(at 105.41 62.23 180)
 			(uuid "542a88c6-2a0e-45c3-9f3d-22f87dd8a3f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "3.3V" input
@@ -4652,6 +4692,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO16" bidirectional
+			(at 105.41 67.31 180)
+			(uuid "ad7741b6-6a7f-401e-af69-825bc6dd981c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO17" bidirectional
+			(at 105.41 69.85 180)
+			(uuid "88246fc6-38b1-4b91-8a62-7302baf1afe5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
