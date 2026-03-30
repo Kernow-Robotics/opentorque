@@ -1512,16 +1512,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 118.11) (xy 62.23 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb74df57-94e3-47b0-b238-a112747c94e1")
-	)
-	(wire
-		(pts
 			(xy 193.04 113.03) (xy 173.99 113.03)
 		)
 		(stroke
@@ -1880,7 +1870,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 62.23 118.11 270)
+		(at 60.96 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1889,7 +1879,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f8f31dc-7b91-44b4-a8d7-c355b09bfe64")
 		(property "Reference" "#PWR09"
-			(at 58.42 118.11 0)
+			(at 57.15 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1888,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 66.04 118.1099 90)
+			(at 64.77 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 118.11 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 118.11 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 62.23 118.11 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4091,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO26" bidirectional
+		(pin "GPIO26" input
 			(at 146.05 63.5 0)
 			(uuid "87aa4648-887c-4ed3-95e5-f6d61995c663")
 			(effects
@@ -4111,7 +4101,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO27" bidirectional
+		(pin "GPIO27" input
 			(at 146.05 66.04 0)
 			(uuid "d4d971f1-52f8-427a-a244-deda8a975c76")
 			(effects
@@ -4121,7 +4111,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO28" bidirectional
+		(pin "GPIO28" input
 			(at 146.05 68.58 0)
 			(uuid "56f751f1-bf98-47c3-92d4-17e5323aea14")
 			(effects
@@ -4131,7 +4121,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO29" bidirectional
+		(pin "GPIO29" input
 			(at 105.41 62.23 180)
 			(uuid "542a88c6-2a0e-45c3-9f3d-22f87dd8a3f6")
 			(effects
@@ -4141,7 +4131,7 @@
 				(justify left)
 			)
 		)
-		(pin "3.3V" input
+		(pin "3.3V" output
 			(at 146.05 36.83 0)
 			(uuid "fa1e5307-0606-4706-aa5d-d73a7f7b6d1d")
 			(effects
@@ -4151,7 +4141,7 @@
 				(justify right)
 			)
 		)
-		(pin "5V" input
+		(pin "5V" output
 			(at 146.05 39.37 0)
 			(uuid "7925593d-1fef-4c61-9987-6c4918066229")
 			(effects
@@ -4161,7 +4151,7 @@
 				(justify right)
 			)
 		)
-		(pin "GND" input
+		(pin "GND" bidirectional
 			(at 146.05 41.91 0)
 			(uuid "7471ceed-17ac-48cf-ae55-447f2fcab23c")
 			(effects
@@ -4171,7 +4161,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO20" bidirectional
+		(pin "GPIO20" output
 			(at 146.05 46.99 0)
 			(uuid "10781ca0-3514-48c5-836f-7887eb333515")
 			(effects
@@ -4181,7 +4171,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO21" bidirectional
+		(pin "GPIO21" output
 			(at 146.05 49.53 0)
 			(uuid "614b3276-ea97-4db0-bc87-85dc1818e056")
 			(effects
@@ -4191,7 +4181,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO18" bidirectional
+		(pin "GPIO18" output
 			(at 146.05 52.07 0)
 			(uuid "7f534562-363e-4f2e-b7c0-d2e80f6d56dd")
 			(effects
@@ -4201,7 +4191,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO19" bidirectional
+		(pin "GPIO19" output
 			(at 146.05 54.61 0)
 			(uuid "0a04e029-1da7-4d79-aa52-6743d04cf8f2")
 			(effects
@@ -4211,7 +4201,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO10" bidirectional
+		(pin "GPIO10" output
 			(at 146.05 57.15 0)
 			(uuid "66cc9c44-f8cc-4355-98ec-8b138cb63c87")
 			(effects
@@ -4221,7 +4211,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO11" bidirectional
+		(pin "GPIO11" output
 			(at 146.05 59.69 0)
 			(uuid "af1529fc-b9df-4223-85c1-e68deed79fd0")
 			(effects
@@ -4231,7 +4221,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO16" bidirectional
+		(pin "GPIO16" input
 			(at 105.41 67.31 180)
 			(uuid "ad7741b6-6a7f-401e-af69-825bc6dd981c")
 			(effects
@@ -4241,7 +4231,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO17" bidirectional
+		(pin "GPIO17" output
 			(at 105.41 69.85 180)
 			(uuid "88246fc6-38b1-4b91-8a62-7302baf1afe5")
 			(effects
