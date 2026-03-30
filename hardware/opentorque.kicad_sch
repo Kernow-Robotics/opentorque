@@ -1237,22 +1237,10 @@
 		(uuid "5ba40ae2-2f52-464b-aa27-c8b90e8f1e75")
 	)
 	(junction
-		(at 69.85 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c3fcb3d-5886-40b5-ad7e-aeb05c3c4a77")
-	)
-	(junction
 		(at 120.65 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8743e2f-b48c-4d99-8ae8-5c3d2ecd3c27")
-	)
-	(junction
-		(at 69.85 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edafa862-5c7e-49b4-8304-b5d4228d177a")
 	)
 	(no_connect
 		(at 146.05 39.37)
@@ -1294,16 +1282,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 161.29) (xy 69.85 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e83d6f3-5cfa-4d47-a2d6-b8875cd19d2f")
-	)
-	(wire
-		(pts
 			(xy 179.07 107.95) (xy 193.04 107.95)
 		)
 		(stroke
@@ -1341,16 +1319,6 @@
 			(type default)
 		)
 		(uuid "467ffdfc-a793-4458-806a-953ed8a5e741")
-	)
-	(wire
-		(pts
-			(xy 60.96 154.94) (xy 69.85 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f0f8e92-d2d0-49bf-a283-8c379cde9b11")
 	)
 	(wire
 		(pts
@@ -1474,16 +1442,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 157.48) (xy 69.85 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a476b44f-11c5-4884-8320-560bff9701ce")
-	)
-	(wire
-		(pts
 			(xy 173.99 68.58) (xy 146.05 68.58)
 		)
 		(stroke
@@ -1501,16 +1459,6 @@
 			(type default)
 		)
 		(uuid "ac7ecba0-77df-4516-9c89-90b7c3729dc1")
-	)
-	(wire
-		(pts
-			(xy 69.85 125.73) (xy 69.85 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2bcd1bb-86c1-401c-85dd-a2e26692f782")
 	)
 	(wire
 		(pts
@@ -1534,16 +1482,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 157.48) (xy 69.85 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b751e784-7622-47c0-83e4-d7e44732a1a4")
-	)
-	(wire
-		(pts
 			(xy 184.15 77.47) (xy 193.04 77.47)
 		)
 		(stroke
@@ -1564,16 +1502,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 168.91) (xy 69.85 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8376c4e-c7ff-48a3-ab28-4e11c509d76e")
-	)
-	(wire
-		(pts
 			(xy 186.69 63.5) (xy 146.05 63.5)
 		)
 		(stroke
@@ -1584,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 118.11) (xy 69.85 118.11)
+			(xy 60.96 118.11) (xy 62.23 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1611,26 +1539,6 @@
 			(type default)
 		)
 		(uuid "f35b35ea-63e6-4ad8-9295-c75670ca2083")
-	)
-	(wire
-		(pts
-			(xy 33.02 168.91) (xy 33.02 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed7cf1a-e953-4a29-90c7-966561dc39ec")
-	)
-	(wire
-		(pts
-			(xy 69.85 118.11) (xy 69.85 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef252a4-20a8-4007-b915-12bdc3087bc0")
 	)
 	(label "SCL"
 		(at 143.51 124.46 0)
@@ -1972,7 +1880,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 69.85 125.73 270)
+		(at 62.23 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1981,7 +1889,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f8f31dc-7b91-44b4-a8d7-c355b09bfe64")
 		(property "Reference" "#PWR09"
-			(at 66.04 125.73 0)
+			(at 58.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1898,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 73.66 125.7299 90)
+			(at 66.04 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 125.73 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +1916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 125.73 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +1925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 69.85 125.73 0)
+			(at 62.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,73 +2144,6 @@
 			(project ""
 				(path "/156c9497-a769-4db4-8dbf-f14841e5fc52"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 69.85 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58e13493-c6cd-4aa5-954e-ed8b68f9aa1c")
-		(property "Reference" "#PWR011"
-			(at 66.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.66 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11870dd3-0b2d-4bea-ad81-657646222478")
-		)
-		(instances
-			(project "opentorque"
-				(path "/156c9497-a769-4db4-8dbf-f14841e5fc52"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2637,73 +2478,6 @@
 			(project "opentorque"
 				(path "/156c9497-a769-4db4-8dbf-f14841e5fc52"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eb07583-38bd-4624-b419-30c31cde52fd")
-		(property "Reference" "#PWR08"
-			(at 67.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f931c022-b5fe-4c6e-961f-abde8953148f")
-		)
-		(instances
-			(project "opentorque"
-				(path "/156c9497-a769-4db4-8dbf-f14841e5fc52"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
